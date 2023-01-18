@@ -23,4 +23,4 @@ Once we gave our last bow on the stage a sense of accomplishment and relief over
 
 
 
-Source: <a href="https://manoa.hawaii.edu/rio/timpuyog/About.html"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://manoa.hawaii.edu/rio/timpuyog/About.html"><i class="large github icon "></i>Timpuyog Website</a>
