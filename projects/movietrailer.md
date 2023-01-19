@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/movietrailer/apple.png
 title: "Food Wars"
 date: 2020
 published: true
@@ -10,10 +10,19 @@ labels:
 summary: "A movie trailer about a group of friends fighting for the last apple."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<div class="ratio ratio-4x3 my-4">
+  <iframe src="[https://www.youtube.com/embed/NrLFIpm0wps](https://youtu.be/WSqbZBtWC6c)" 
+          title="Food Wars" 
+          allowfullscreen>
+  </iframe>
+</div>
 
 In the Fall of 2020, my physics teacher gave us 2 options for our final project: a movie trailer or a musical. My team decided to go with a movie trailer. Part of the assignment was to incorporate physics concepts in the trailer that we can explain and calculate to our professor. During our brainstorm process, we couldn't think of any movie that had the required number of physics concepts needed for that A+ so we decided to come up with our own movie.
 
-The physics concepts that we decided to show in our movie were: velocity, acceleration, newton's first, second, and third law, projectile velocity, kinetic energy, centripetal acceleration, torque, and harmonic series. ~write more later~
+Throughout the project, I acted as our leader. Since I had the most knowledge in physics, my team let me make most of the decision while they supported me with ideas and suggestions. Editing was done solely by my teammate, Christen, as she had the technical skills to edit a video.
 
-Source: <a href="https://manoa.hawaii.edu/rio/timpuyog/About.html"><i class="large github icon "></i>Timpuyog Website</a>
+Some of the physics concepts that we decided to show in our movie were: velocity, projectile velocity, centripetal acceleration, torque, harmonic series, etc. Velocity was shown with the car driving, projectile velocity was shown when we threw the ball, centripetal acceleration was shown when I spun a key lanyard, and harmonic series was shown when my teammate played the ukulele. While filming these scenes, we had to make sure to measure so we could calculate each physics concept represented.
+
+After completing the project, I had refined my complex thinking. During recording, sometimes things didn't work out how we originally planned. For example, at times we were stuck on which measurements we could take so we could calculate the correct concept. We had to come up with ways to calculate using limited measurements or ways to measure while recording.
+
+
