@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/dramafestival/timpuyogbanner.png
 title: "Timpuyog Drama Festival"
 date: 2022
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "The Timpuyog Drama Festival is an event where Ilokano students create and act out a drama reflecting a theme related to the Philippines."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<img class="img-fluid" src="../img/dramafestival/IMG_4232.PNG">
 
 Timpuyog is an Ilokano term which translates to "togetherness". The organization's goal is to connect people together and teach the Ilokano culture using events as an avenue. The Drama, Film, Song, and Speech Festival is specifically for students to showcase their skills in speaking Ilokano and teach others of the Ilokano culture. My team participated in Fall 2022's festival with immigration as the theme. With that theme in mind, my team decided that our drama will be based on problem with how some Filipinos go about immigrating to the United States. 
 
