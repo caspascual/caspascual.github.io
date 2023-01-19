@@ -9,9 +9,8 @@ labels:
   - Physics
 summary: "A movie trailer about a group of friends fighting for the last apple."
 ---
-
 <div class="ratio ratio-4x3 my-4">
-  <iframe src="[https://www.youtube.com/embed/NrLFIpm0wps](https://youtu.be/WSqbZBtWC6c)" 
+  <iframe src="https://www.youtube.com/embed/NrLFIpm0wps](https://youtu.be/WSqbZBtWC6c" 
           title="Food Wars" 
           allowfullscreen>
   </iframe>
