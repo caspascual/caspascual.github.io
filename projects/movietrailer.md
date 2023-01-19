@@ -11,7 +11,7 @@ summary: "A movie trailer about a group of friends fighting for the last apple."
 ---
 <div class="ratio ratio-4x3 my-4">
   <iframe src="https://youtu.be/WSqbZBtWC6c" 
-          title="Food Wars" 
+          title="Food Wars Trailer" 
           allowfullscreen>
   </iframe>
 </div>
