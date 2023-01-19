@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: img/marblerollercoaster/marble.jpg
 title: "Marble Rollercoaster"
 date: 2021
 published: true
@@ -11,7 +11,14 @@ labels:
 summary: "A rollercoaster track made out of old electrical wiring."
 ---
 
-<img class="img-fluid" src="../img/cotton/cotton-header.png">
+<div class="text-center p-4">
+  <img width="200px" 
+       src="../img/marblerollercoaster/marble2.jpg" 
+       class="img-thumbnail" >
+  <img width="200px" 
+       src="..img/marblerollercoaster/marble3.jpg" 
+       class="img-thumbnail" >
+</div>
 
 STEM is an acronym stands for Science, Technology, Engineering, and Mathematics. In the Spring of 2021, my STEM teacher told us to design and create a marble rollercoaster. The only limitation we were given were size constraints, it could only be 4 feet in terms of width, height, and depth. Not wanting to submit a boring project, I scoured the internet for ideas.
 
