@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: "A look into the first week of an ICS class"
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-017
+date: 2023-01-17
 published: true
 labels:
   - Javascript
