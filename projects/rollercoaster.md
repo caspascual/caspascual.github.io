@@ -12,11 +12,11 @@ summary: "A rollercoaster track made out of old electrical wiring."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" 
+  <img width="400px" 
        src="../img/marblerollercoaster/marble2.jpg" 
        class="img-thumbnail" >
-  <img width="200px" 
-       src="..img/marblerollercoaster/marble3.jpg" 
+  <img width="400px" 
+       src="../img/marblerollercoaster/marble3.jpg" 
        class="img-thumbnail" >
 </div>
 
