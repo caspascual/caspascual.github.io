@@ -9,8 +9,9 @@ labels:
   - Physics
 summary: "A movie trailer about a group of friends fighting for the last apple."
 ---
-<iframe width="420" height="315" src="https://www.youtube.com/embed/WSqbZBtWC6c">
-</iframe>
+<div class="ratio ratio-16x9">
+  <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
+</div>
 
 In the Fall of 2020, my physics teacher gave us 2 options for our final project: a movie trailer or a musical. My team decided to go with a movie trailer. Part of the assignment was to incorporate physics concepts in the trailer that we can explain and calculate to our professor. During our brainstorm process, we couldn't think of any movie that had the required number of physics concepts needed for that A+ so we decided to come up with our own movie.
 
