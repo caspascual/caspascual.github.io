@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/dramafestival/timpuyogbanner.png
+image: img/dramafestival/timpuyogbanner.jpg
 title: "Timpuyog Drama Festival"
 date: 2022
 published: true
