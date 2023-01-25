@@ -25,5 +25,5 @@ The question is also answered in a very smart way. The best answer gives a very 
 ## Importance
 Software engineers, at some point in their careers, will need to post a question about the problem they have while programming. Everything requires context to understand. You cannot expect someone to immediately understand what you are saying from only vague descriptions. In order for us to get a clear answer-back, we must provide a clear explanation. Asking smart questions is an important skill to have as a software engineer, otherwise, we’ll be stuck forever on a problem.
 
-Final Thoughts
+## Final Thoughts
 Reading Eric Raymond’s guidelines reminded me of a quote my high school physics teacher once told me. “Learning requires both the student and the teacher to work together. You have to meet me halfway there.” Asking questions is a part of learning, and learning requires both sides, the student and the teacher, to meet each other halfway. In order for me to do that, I must ask smart questions.
