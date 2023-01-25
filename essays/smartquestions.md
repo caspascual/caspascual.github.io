@@ -1,9 +1,9 @@
 ---
 layout: essay
 type: essay
-title: "A look into the first week of an ICS class"
+title: "See You Halfway There!"
 # All dates must be YYYY-MM-DD format!
-date: 2023-01-17
+date: 2023-01-24
 published: true
 labels:
   - Smart Questions
