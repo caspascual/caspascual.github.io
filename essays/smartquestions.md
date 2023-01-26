@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "See You Halfway There!"
+title: "Ask Smarter"
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-24
 published: true
