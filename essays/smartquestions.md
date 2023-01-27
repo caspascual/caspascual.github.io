@@ -35,7 +35,7 @@ But the error message is still the same as above
 The question is titled “I am trying to find the problem within this code”. In the description, they say that they are getting  “NameError: name ‘home_team’ is not defined” on a snippet of their code. Numerous problems are apparent in this question when following Raymond’s guide. The first is their title. The only thing their title does is tell people they have a problem rather than giving a concise description as Raymond suggests. Another problem with this question is that it is easily googleable. Copying and pasting the error code brings up numerous links to very similar questions. Per the guidelines, questions should be searched on the web before asking.
 
 Thankfully for the question author, no one has given them the “STFW” answer. The best answer in the replies gives steps on how to fix the problem (by initializing the undefined variable), reasons for the problem, and even the source code of their solution. The author of the answer even italicized words to put emphasis on the most important parts of the solution.
-
+ 
 
 Here’s another [question](https://stackoverflow.com/questions/75224180/if-statement-trigger-please-assist) on StackOverflow.
 ```
