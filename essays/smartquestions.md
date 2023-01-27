@@ -36,6 +36,7 @@ The question is titled “I am trying to find the problem within this code”. I
 
 Thankfully for the question author, no one has given them the “STFW” answer. The best answer in the replies gives steps on how to fix the problem (by initializing the undefined variable), reasons for the problem, and even the source code of their solution. The author of the answer even italicized words to put emphasis on the most important parts of the solution.
 
+
 Here’s another [question](https://stackoverflow.com/questions/75224180/if-statement-trigger-please-assist) on StackOverflow.
 ```
 margaretscript = c://.....margaret.py
@@ -62,7 +63,94 @@ if not mary or margaret, exit or break or stop script. I want james' result to t
 The question is “if statement trigger, please assist”. In their description, they provide the source code of two if statements and state that they want those if statements to trigger based on the conditional. The first problem with this question is again, the title; it doesn’t describe the problem. Another problem is within their description. The grammar is very hard to understand and the question author didn’t even describe their problem or what they did. All they stated was what the code should do.
 
 ## The Smart Way
-Take a look at [this](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) other question. The question is “Why is processing a sorted array faster than processing an unsorted array?” In their description, the author of the question provides source code made in C++ that processes through an array. When they sort through said array before processing through it, the run time is significantly faster. The author of this question is an exemplary example of a question that follows Raymond's guidelines. Their title was clear and concise, they explained clearly what they did and what the problem is/does, and they explicitly said what they wanted at the end. To even show that their problem is not a fluke, the author of the question provided the source code of a Java version of their code to show that it’s not a problem with the language that they were writing in.
+Take a look at [this](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array) other question. 
+```
+Here is a piece of C++ code that shows some very peculiar behavior.
+
+For some reason, sorting the data (before the timed region) miraculously makes the primary loop almost six times faster:
+
+#include <algorithm>
+#include <ctime>
+#include <iostream>
+
+int main()
+{
+    // Generate data
+    const unsigned arraySize = 32768;
+    int data[arraySize];
+
+    for (unsigned c = 0; c < arraySize; ++c)
+        data[c] = std::rand() % 256;
+
+    // !!! With this, the next loop runs faster.
+    std::sort(data, data + arraySize);
+
+    // Test
+    clock_t start = clock();
+    long long sum = 0;
+    for (unsigned i = 0; i < 100000; ++i)
+    {
+        for (unsigned c = 0; c < arraySize; ++c)
+        {   // Primary loop.
+            if (data[c] >= 128)
+                sum += data[c];
+        }
+    }
+
+    double elapsedTime = static_cast<double>(clock()-start) / CLOCKS_PER_SEC;
+
+    std::cout << elapsedTime << '\n';
+    std::cout << "sum = " << sum << '\n';
+}
+Without std::sort(data, data + arraySize);, the code runs in 11.54 seconds.
+With the sorted data, the code runs in 1.93 seconds.
+(Sorting itself takes more time than this one pass over the array, so it's not actually worth doing if we needed to calculate this for an unknown array.)
+
+Initially, I thought this might be just a language or compiler anomaly, so I tried Java:
+
+import java.util.Arrays;
+import java.util.Random;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+        // Generate data
+        int arraySize = 32768;
+        int data[] = new int[arraySize];
+
+        Random rnd = new Random(0);
+        for (int c = 0; c < arraySize; ++c)
+            data[c] = rnd.nextInt() % 256;
+
+        // !!! With this, the next loop runs faster
+        Arrays.sort(data);
+
+        // Test
+        long start = System.nanoTime();
+        long sum = 0;
+        for (int i = 0; i < 100000; ++i)
+        {
+            for (int c = 0; c < arraySize; ++c)
+            {   // Primary loop.
+                if (data[c] >= 128)
+                    sum += data[c];
+            }
+        }
+
+        System.out.println((System.nanoTime() - start) / 1000000000.0);
+        System.out.println("sum = " + sum);
+    }
+}
+With a similar but less extreme result.
+
+My first thought was that sorting brings the data into the cache, but that's silly because the array was just generated.
+
+What is going on?
+Why is processing a sorted array faster than processing an unsorted array?
+The code is summing up some independent terms, so the order should not matter.
+```
+The question is “Why is processing a sorted array faster than processing an unsorted array?” In their description, the author of the question provides source code made in C++ that processes through an array. When they sort through said array before processing through it, the run time is significantly faster. The author of this question is an exemplary example of a question that follows Raymond's guidelines. Their title was clear and concise, they explained clearly what they did and what the problem is/does, and they explicitly said what they wanted at the end. To even show that their problem is not a fluke, the author of the question provided the source code of a Java version of their code to show that it’s not a problem with the language that they were writing in.
 
 The question is also answered in a very smart way. The best answer gives a very detailed explanation of the question author’s problem. They provide an example of branch prediction, the part in the questioner's code that’s causing the problem (an if statement in their loop) with a visualization, and source code for a solution to the problem.
 
