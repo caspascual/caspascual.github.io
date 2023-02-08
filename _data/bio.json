@@ -15,7 +15,8 @@
   },
   "interests": [
     { "name": "Software Development" },
-    { "name": "Robotics" }
+    { "name": "Robotics" },
+    { "name": "AI" }
   ],
   "skills": [
     {
