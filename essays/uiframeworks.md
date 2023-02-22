@@ -13,7 +13,7 @@ For the past few weeks, I’ve dabbled in using a UI Framework, specifically Boo
 
 Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
 
-All examples were taken from the Bootstrap 5 and W3Schools documentations.
+*Both examples were taken from the [Bootstrap 5](https://getbootstrap.com/docs/5.0/components/dropdowns/) and [W3Schools](https://www.w3schools.com/css/css_dropdowns.asp) documentations.*
 
 ## Bootstrap 5:
 ```
@@ -87,6 +87,15 @@ All examples were taken from the Bootstrap 5 and W3Schools documentations.
 </body>
 </html>
 ```
+## Results
+Bootstrap 5: <img width="200px" 
+     class="rounded float-start pe-4" 
+     src="..img/uiframewords/bootstrap5.JPG" >
+
+Raw HTMl/CSS: <img width="200px" 
+     class="rounded float-start pe-4" 
+     src="..img/uiframewords/rawhtmlcss.JPG" >
+
 ## Comparison
 
 Notice how much simpler it is in Bootstrap 5? All of the heavy CSS work was done for you already. All you need to worry about is simple styling and formatting. Even simple styling is easy to do with bootstrap. All you need to do is add pre-made classes to your code.
@@ -97,4 +106,4 @@ There is a huge learning curve when learning a UI Framework like Bootstrap 5. In
 
 ## Worth It?
 
-I’ve said already, once you get past that learning curve UI Frameworks are absolutely worth the pain and struggle to learn. The UI Framework will do the CSS heavy lifting for you. All you have to worry about are some minor details that can be easily fixed. For a software engineer, if your employer wants you to create a beautiful website quickly, a UI Framework is definitely the way to go. It might even be faster for you to learn an entirely new UI Framework to make a website than with raw HTML and CSS only from the start. Unless you are an absolute pro at raw HTML and CSS, the investment of time and frustration to learning a UI Framework will be worth the end result. It's a timely investment but high reward.
+As I’ve said already, once you get past that learning curve UI Frameworks are absolutely worth the pain and struggle to learn. The UI Framework will do the CSS heavy lifting for you. All you have to worry about are some minor details that can be easily fixed. For a software engineer, if your employer wants you to create a beautiful website quickly, a UI Framework is definitely the way to go. It might even be faster for you to learn an entirely new UI Framework to make a website than with raw HTML and CSS only from the start. Unless you are an absolute pro at raw HTML and CSS, the investment of time and frustration to learning a UI Framework will be worth the end result. It's a timely investment but high reward.
