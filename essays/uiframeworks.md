@@ -90,11 +90,11 @@ Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
 ## Results
 Bootstrap 5: <img width="200px" 
      class="rounded float-start pe-4" 
-     src="..img/uiframewords/bootstrap5.JPG" >
+     src="caspascual.github.io/img/uiframewords/bootstrap5.JPG" >
 
 Raw HTMl/CSS: <img width="200px" 
      class="rounded float-start pe-4" 
-     src="..img/uiframewords/rawhtmlcss.JPG" >
+     src="caspascual.github.io/img/uiframewords/rawhtmlcss.JPG" >
 
 ## Comparison
 
