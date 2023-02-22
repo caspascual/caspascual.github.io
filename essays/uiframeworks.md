@@ -30,9 +30,6 @@ Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
 ```
 ## Raw HTML and CSS:
 ```
-<!DOCTYPE html>
-<html>
-<head>
 <style>
 .dropbtn {
   background-color: #4CAF50;
@@ -74,8 +71,6 @@ Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
   background-color: #3e8e41;
 }
 </style>
-</head>
-<body>
 <div class="dropdown">
   <button class="dropbtn">Dropdown</button>
   <div class="dropdown-content">
@@ -84,8 +79,6 @@ Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
   <a href="#">Link 3</a>
   </div>
 </div>
-</body>
-</html>
 ```
 ## Results
 Bootstrap 5: <br />
