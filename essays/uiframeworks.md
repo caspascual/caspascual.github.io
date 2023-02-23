@@ -85,7 +85,7 @@ Bootstrap 5: <br/>
 <img width="200px" 
      class="rounded float-start pe-4" 
      src="../img/uiframewords/bootstrap5.JPG" >
-<br />
+<hr />
 Raw HTMl/CSS: <br/>
 <img width="200px" 
      class="rounded float-start pe-4" 
