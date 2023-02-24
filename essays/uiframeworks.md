@@ -82,15 +82,11 @@ Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
 ```
 ## Results
 Bootstrap 5: <br/>
-<img width="200px" 
-     class="rounded float-start pe-4" 
-     src="../img/uiframewords/bootstrap5.JPG" >
-<hr />
+<img width="200px" class="rounded float-start pe-4" src="../img/uiframewords/bootstrap5.JPG">
+
 Raw HTMl/CSS: <br/>
-<img width="200px" 
-     class="rounded float-start pe-4" 
-     src="../img/uiframewords/rawhtmlcss.JPG" >
-<br/>
+<img width="200px" class="rounded float-start pe-4" src="../img/uiframewords/bootstrap5.JPG" >
+
 ## Comparison
 
 Notice how much simpler it is in Bootstrap 5? All of the heavy CSS work was done for you already. All you need to worry about is simple styling and formatting. Even simple styling is easy to do with bootstrap. All you need to do is add pre-made classes to your code.
