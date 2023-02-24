@@ -81,11 +81,12 @@ Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.
 </div>
 ```
 ## Results
-<div class="text-center p-4">
+<div class="float-start p-4">
 Bootstrap 5: <br />
   <img width="200px" 
-       src="../img/micromouse/uiframewords/bootstrap5.JPG" 
+       src="../img/uiframewords/bootstrap5.JPG" 
        class="img-thumbnail" >
+<br />
 Raw HTMl/CSS: <br />
   <img width="200px" 
        src="../img/uiframewords/rawhtmlcss.JPG" 
