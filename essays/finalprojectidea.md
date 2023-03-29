@@ -1,8 +1,8 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Idea"
-date: 2022-11-01
+title: "Party Palooza!"
+date: 2023-03-28
 labels:
   - Software Engineering
   - Meteor
