@@ -13,7 +13,8 @@ labels:
 *Authors: Christopher Pascual, Mark Burgess, Tung Nguyen*
 <br />
 ## Overview
-*The Problem*: When playing a team-based multiplayer game like Rainbow 6 Siege, Valorant, or CS:GO, gamers often find themselves missing an extra player and have to resort to the game's matchmaking for one. The problem with this is that you can't choose who that random player is. Oftentimes, players are paired with bad teammates, hackers, trollers, and the like who just make the gaming experience horrible. <br />
+*The Problem*: When playing a team-based multiplayer game like Rainbow 6 Siege, Valorant, or CS:GO, gamers often find themselves missing an extra player and have to resort to the game's matchmaking for one. The problem with this is that you can't choose who that random player is. Oftentimes, players are paired with bad teammates, hackers, trollers, and the like who just make the gaming experience horrible.
+
 *The Solution*: Party Palooza! It's a web-based application meant for gamers to choose other gamers to join their team for an online match. Bygone are the days of hopelessly praying to the RNG gods for a good player.
 
 ## Approach
