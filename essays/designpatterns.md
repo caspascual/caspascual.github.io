@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "Design Patterns Make Life Easier"
-date: 2023-03-28
+date: 2023-04-27
 labels:
   - Software Engineering
   - Design Patterns
@@ -20,4 +20,4 @@ Thankfully, the ultimate invention was just created in the 4th millennium BC by 
 
 Like the wheel, design patterns do essentially the same thing; they provide a solution to recurring problems in software development and work as a template for solving said issue. They also make things a little bit easier and more efficient for software developers, who are notoriously lazy.
 
-In my case, it makes developing my current project: Ohana Scholars, a web-based study session scheduler, easier for my team and me. We make use of Meteor’s reactivity (which is similar to the Observer design pattern) to update pages easier. When our users or admins manipulate the various collections in our application by adding or removing data, the meteor automatically updates the page with new information, even without a full refresh to the page. This makes development easier and more convenient for us as we don’t have to do the heavy lifting of manually updating the pages with the new information.
+In my case, it makes developing my current project: [Ohana Scholars](https://ohana-scholars.github.io/), a web-based study session scheduler, easier for my team and me. We make use of Meteor’s reactivity (which is similar to the Observer design pattern) to update pages easier. When our users or admins manipulate the various collections in our application by adding or removing data, the meteor automatically updates the page with new information, even without a full refresh to the page. This makes development easier and more convenient for us as we don’t have to do the heavy lifting of manually updating the pages with the new information.
