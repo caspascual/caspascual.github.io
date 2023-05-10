@@ -4,7 +4,7 @@ type: essay
 title: "Far in the Future"
 # All dates must be YYYY-MM-DD format!
 date: 2023-02-2
-published: true
+published: false
 labels:
   - Software Engineer
   - Computer Science
