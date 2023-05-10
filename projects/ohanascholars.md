@@ -12,7 +12,7 @@ labels:
 summary: "A website for UH students to schedule study sessions."
 ---
 
-<img class="img-fluid" src="../img/ohana-scholars-logo.png">
+<img class="img-fluid" src="../img/landingpage.JPG">
 
 ## What is It?
 
