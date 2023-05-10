@@ -8,6 +8,8 @@ labels:
   - Design Patterns
   - Meteor
 ---
+<img class="img-fluid" src="../img/designpatterns.webp">
+
 ## The Most Important Invention: the Wheel
 
 Imagine you’re a nomad back during the dawn of humanity and civilization. You’re traveling the world and need to transport items with you. Way back then, the only way to transport objects would be to carry them on your two hands and walk with your two feet to your destination. The work is time-consuming, inefficient, and very strenuous for your body, but you can’t complain as there’s no other solution. 
