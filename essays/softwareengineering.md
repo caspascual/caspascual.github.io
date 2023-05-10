@@ -10,6 +10,8 @@ labels:
   - Development Environments
 ---
 
+<img class="img-fluid" src="../img/software.jpg">
+
 For my 4th semester of college, I took ICS314, which focuses on Software Engineering. While it was a bit ruff initially, our work was fascinating and fun. All the previous ICS classes I took were always theoretical, but this class instead focused on more practical skills, which I greatly appreciated. It taught me a lot of practical skills and things to know for my software engineering career in the future.
 
 ## Coding Standards
