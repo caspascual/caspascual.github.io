@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Timely Investment, High Reward | Christopher Pascual | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/122702944?v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Christopher Pascual | Professional Portfolio">
+    <meta property="og:url" content="https://caspascual.github.io/essays/uiframeworks.html">
+    <meta property="og:title" content="Timely Investment, High Reward | Christopher Pascual | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/122702944?v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/skyblue.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/molokai.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Timely Investment, High Reward | Christopher Pascual | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Christopher Pascual</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Timely Investment, High Reward</h1>
+  <span class="date">20 Feb 2023</span>
+  <hr>
+  <p>For the past few weeks, I’ve dabbled in using a UI Framework, specifically Bootstrap 5. At the start, I thought it was highly unnecessary and a waste of time to learn. Even after the pain of first learning HTML and CSS, I thought Bootstrap 5 was much more complicated and much preferred to use HTML and CSS. However, I was very wrong. The more I familiarized myself with how Bootstrap 5 works and its documentation, it was MUCH easier than raw HTML and CSS.</p>
+
+<p>Let’s compare making a dropdown menu in Bootstrap 5 and raw HTML and CSS.</p>
+
+<p><em>Both examples were taken from the <a href="https://getbootstrap.com/docs/5.0/components/dropdowns/">Bootstrap 5</a> and <a href="https://www.w3schools.com/css/css_dropdowns.asp">W3Schools</a> documentations.</em></p>
+
+<h2 id="bootstrap-5">Bootstrap 5:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;div class="dropdown"&gt;
+  &lt;button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"&gt;
+    Dropdown button
+  &lt;/button&gt;
+  &lt;ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1"&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a class="dropdown-item" href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+<h2 id="raw-html-and-css">Raw HTML and CSS:</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;style&gt;
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+&lt;/style&gt;
+&lt;div class="dropdown"&gt;
+  &lt;button class="dropbtn"&gt;Dropdown&lt;/button&gt;
+  &lt;div class="dropdown-content"&gt;
+  &lt;a href="#"&gt;Link 1&lt;/a&gt;
+  &lt;a href="#"&gt;Link 2&lt;/a&gt;
+  &lt;a href="#"&gt;Link 3&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+<h2 id="results">Results</h2>
+<div class="px-4">
+Bootstrap 5: <br />
+  <img width="200px" src="../img/uiframewords/bootstrap5.JPG" class="img-thumbnail" />
+<br />
+<br />
+Raw HTMl/CSS: <br />
+  <img width="200px" src="../img/uiframewords/rawhtmlcss.JPG" class="img-thumbnail" />
+</div>
+<p><br /></p>
+
+<h2 id="comparison">Comparison</h2>
+
+<p>Notice how much simpler it is in Bootstrap 5? All of the heavy CSS work was done for you already. All you need to worry about is simple styling and formatting. Even simple styling is easy to do with bootstrap. All you need to do is add pre-made classes to your code.</p>
+
+<h2 id="the-caveat">The Caveat</h2>
+
+<p>There is a huge learning curve when learning a UI Framework like Bootstrap 5. In Bootstrap 5 specifically, you need to understand how to div your code or where to place each class so that the styling classes don’t conflict with each other. There have been numerous times when I add a class to a div in my code and the new styling doesn’t show up. It would then take trial and error to figure out which part of my code where I can add the class so the new styling shows up.</p>
+
+<h2 id="worth-it">Worth It?</h2>
+
+<p>As I’ve said already, once you get past that learning curve UI Frameworks are absolutely worth the pain and struggle to learn. The UI Framework will do the CSS heavy lifting for you. All you have to worry about are some minor details that can be easily fixed. For a software engineer, if your employer wants you to create a beautiful website quickly, a UI Framework is definitely the way to go. It might even be faster for you to learn an entirely new UI Framework to make a website than with raw HTML and CSS only from the start. Unless you are an absolute pro at raw HTML and CSS, the investment of time and frustration to learning a UI Framework will be worth the end result. It’s a timely investment but high reward.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

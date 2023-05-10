@@ -1,0 +1,55 @@
+{
+  "basics": {
+    "name": "Christopher Pascual",
+    "label": "Student",
+    "picture": "https://avatars.githubusercontent.com/u/122702944?v=4",
+    "email": "casp@hawaii.edu",
+    "phone": "808-256-3784",
+    "website": "https://caspascual.github.io",
+    "summary": "I am a student studying Computer Science at the University of Hawaii at Manoa. I expect to graduate in Spring 2025.",
+    "location": { "address": "", "postalCode": "96707", "city": "Kapolei", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "caspascual", "url": "http://github.com/caspascual" },
+      { "network": "linkedin", "username": "caspascual", "url": "http://linkedin.com/in/caspascual" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Development" },
+    { "name": "Robotics" },
+    { "name": "AI" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows 11", "Intellij", "Git/GitHub" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-08-05",
+      "endDate": "Present",
+      "courses": ["ICS211", "ICS212", "ICS141", "ICS241", "ICS314"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "Fall 2021-2022",
+      "awarder": "University of Hawaii at Manoa",
+      "summary": "Awarded to students with a GPA of 3.5 or higher."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
