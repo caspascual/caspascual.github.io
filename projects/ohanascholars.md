@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/dramafestival/timpuyogbanner.JPG
+image: img/ohana-scholars-logo.png
 title: "Ohana Scholars"
 date: 2023
 published: true
@@ -12,9 +12,18 @@ labels:
 summary: "A website for UH students to schedule study sessions."
 ---
 
-<img class="img-fluid" src="../img/dramafestival/IMG_4232.PNG">
+<img class="img-fluid" src="../img/ohana-scholars-logo.png">
 
 ## What is It?
+
+<div class="text-center p-4">
+  <img width="400px" 
+       src="../img/filter.png" 
+       class="img-thumbnail" >
+  <img width="400px" 
+       src="../img/banpage.JPG" 
+       class="img-thumbnail" >
+</div>
 
 [Ohana Scholars](https://ohanascholars.org/) is a website made for students at the University of Hawaii at Manoa to schedule study sessions with each other. Students are able to make an account to join or create study sessions for the various courses at UH Manoa. It was developed by me, [Alden Paroni](https://aldenparoni.github.io/), [Audrey Soares](https://audreysoares.github.io/), [Mark Burgess](https://crepesalot.github.io/), and [Tung Nguyen](https://tungxn.github.io/). It makes use of this template that utilizes Meteor, Bootstrap 5, React, and MongoDB.
 
