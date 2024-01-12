@@ -35,14 +35,28 @@
       "studyType": "B.S.",
       "startDate": "2021-08-05",
       "endDate": "Present",
-      "courses": ["ICS211", "ICS212", "ICS141", "ICS241", "ICS314"
+      "courses": ["ICS211", "ICS212", "ICS141", "ICS241", "ICS314", "ICS311", "ICS321"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Timpuyog",
+      "website": "",
+      "position": "Club Member",
+      "startDate": "2022",
+      "endDate": "Present",
+      "summary": "Participated in cultural activities and performed in Ilokano Drama Festivals as an actor.",
+      "highlights": [
+        "Contributed heavily in writing and translating the scripts for class performance in Drama Fests",
+        "Won Best in Pronunciation"
       ]
     }
   ],
   "awards": [
     {
       "title": "Dean's List",
-      "date": "Fall 2021-2022",
+      "date": "Fall 2021-2023",
       "awarder": "University of Hawaii at Manoa",
       "summary": "Awarded to students with a GPA of 3.5 or higher."
     }
