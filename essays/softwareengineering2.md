@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Software Engineering Basics"
+title: "Applied Software Engineering"
 date: 2024-12-07
 labels:
   - Software Engineering
