@@ -21,11 +21,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "Java", "Javascript", "Common Lisp" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "Windows 11", "Intellij", "Git/GitHub" ]
+      "keywords": [ "Windows 11/10", "Intellij", "Git/GitHub" ]
     }
   ],
   "education": [
@@ -35,7 +35,7 @@
       "studyType": "B.S.",
       "startDate": "2021-08-05",
       "endDate": "Present",
-      "courses": ["ICS211", "ICS212", "ICS141", "ICS241", "ICS314"
+      "courses": ["ICS211", "ICS212", "ICS141", "ICS241", "ICS314", "ICS481", "ICS312", "ICS414"
       ]
     }
   ],
@@ -56,7 +56,7 @@
   "awards": [
     {
       "title": "Dean's List",
-      "date": "Fall 2021-2022",
+      "date": "2021-2024",
       "awarder": "University of Hawaii at Manoa",
       "summary": "Awarded to students with a GPA of 3.5 or higher."
     }
